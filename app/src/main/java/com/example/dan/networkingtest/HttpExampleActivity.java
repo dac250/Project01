@@ -70,7 +70,7 @@ public class HttpExampleActivity extends Activity {
             // Construct the URL to open a guest session with TheMovieDB.org
             String baseUrl = "https://api.themoviedb.org/3/authentication/guest_session/new?api_key=";
             // NOTE:  REMOVE THIS KEY BEFORE SUBMITTING!!!!!
-            String apiKey = "cccff69f2435068adbfb54a46d74b909";
+            String apiKey = (apikeyhere);
             URL url = new URL(baseUrl + apiKey);
 
             // Open the connection to
